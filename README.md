@@ -27,8 +27,8 @@ Ninja 仅支持 qinglong 2.8+
        restart: unless-stopped
        tty: true
        ports:
-         - 5700:5700
-   +      - 5701:5701
+         - 5901:5700
+   +      - 5703:5701
        environment:
          - ENABLE_HANGUP=true
          - ENABLE_WEB_PANEL=true
